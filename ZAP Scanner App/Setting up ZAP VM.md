@@ -65,17 +65,17 @@ sudo apt install python3-pip python3-venv -y
 mkdir -p ~/tools
 cd ~/tools
 
-# Download latest ZAP (check https://www.zaproxy.org/download/ for current version)
-wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz
+# Download latest ZAP (v2.17.0 - January 2025 release)
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.17.0/ZAP_2.17.0_Linux.tar.gz
 
 # Extract
-tar -xvf ZAP_2.15.0_Linux.tar.gz
+tar -xvf ZAP_2.17.0_Linux.tar.gz
 
 # Clean up
-rm ZAP_2.15.0_Linux.tar.gz
+rm ZAP_2.17.0_Linux.tar.gz
 
 # Create symlink for easier access (optional)
-sudo ln -s ~/tools/ZAP_2.15.0/zap.sh /usr/local/bin/zap
+sudo ln -s ~/tools/ZAP_2.17.0/zap.sh /usr/local/bin/zap
 ```
 
 **6. Test ZAP in daemon mode:**
