@@ -82,7 +82,7 @@ sudo ln -s ~/tools/ZAP_2.17.0/zap.sh /usr/local/bin/zap
 
 ```bash
 # Start ZAP headless
-cd ~/tools/ZAP_2.15.0
+cd ~/tools/ZAP_2.17.0
 ./zap.sh -daemon -host 0.0.0.0 -port 8080 -config api.disablekey=true
 
 # Should see output like:
