@@ -1,2 +1,3 @@
-# linked-blog-starter-md
-These are the markdown files for the [linked-blog-starter](https://github.com/matthewwong525/linked-blog-starter) repository
+# vault backup
+
+here is the backup repo for my vault notes. Copy my notes if you want.
