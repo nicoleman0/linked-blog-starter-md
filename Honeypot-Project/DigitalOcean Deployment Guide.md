@@ -56,9 +56,12 @@ apt update && apt upgrade -y
 Create a non-root user (recommended):
 
 ```bash
-adduser conpot
-usermod -aG sudo conpot
+adduser tech1
+usermod -aG sudo tech1
 ```
+
+Pass: siemens
+
 
 Configure firewall (UFW):
 
@@ -89,7 +92,7 @@ sh get-docker.sh
 Add user to docker group (if using non-root):
 
 ```bash
-usermod -aG docker conpot
+usermod -aG docker tech1
 ```
 
 Verify Docker installation:
